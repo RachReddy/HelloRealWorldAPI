@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["HelloRealWorldAPI.csproj", "HelloRealWorldAPI/"]
+COPY ["HelloRealWorldAPI.csproj", "."]
 RUN dotnet restore "HelloRealWorldAPI.csproj"
 COPY . .
 WORKDIR "/src/HelloRealWorldAPI"
