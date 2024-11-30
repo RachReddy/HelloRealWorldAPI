@@ -1,5 +1,5 @@
 !**/*.csproj
-!HelloRealWorldAPI/HelloRealWorldAPI.csproj
+!**/*.sln
 
 **/.classpath
 **/.dockerignore
