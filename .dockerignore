@@ -1,3 +1,6 @@
+!**/*.csproj
+!HelloRealWorldAPI/HelloRealWorldAPI.csproj
+
 **/.classpath
 **/.dockerignore
 **/.env
